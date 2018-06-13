@@ -1,3 +1,3 @@
 var dataTest = function(){
-   console.log("hello from outer");
+   alert("hello from outer");
 }
