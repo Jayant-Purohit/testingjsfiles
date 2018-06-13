@@ -1,8 +1,3 @@
-window.onload = function(e){ 
-   var x = document.getElementsByTagName("TITLE");
-   x[0].innerHTML = 'this is title from outer js' 
+var dataTest = function(){
+   console.log("hello from outer");
 }
-
-
-
-console.log("hello from outer");
